@@ -1,21 +1,20 @@
 import React from 'react';
 
 function ResultCard({ result, onRemove }) {
-  if (!result) return null;
-
   return (
     <div className="result-card">
-      <img src={result.fileURL} alt="Uploaded Food" className="result-image" />
+      <img src={result.fileURL} alt={result.foodName} className="food-image" />
       {result.recognized ? (
-        <>
-          <h4>{result.foodName.replace('_', ' ')}</h4>
-          <p>GI: {result.gi}</p>
-          <p>Confidence: {(result.confidence * 100).toFixed(2)}%</p>
-        </>
+        <div className="result-details">
+          <h3>{result.foodName}</h3>
+          <p>Confidence: {(result.confidence * 100).toFixed(1)}%</p>
+          {result.gi && <p>Glycemic Index: {result.gi.toFixed(2)}</p>}
+          {/* {result.glycemicLoad && <p>Glycemic Load: {result.glycemicLoad.toFixed(2)}</p>} */}
+        </div>
       ) : (
-        <p>Unrecognized</p>
+        <p>Food not recognized.</p>
       )}
-      <button onClick={onRemove} className="remove-button">Remove</button>
+      <button onClick={onRemove}>Remove</button>
     </div>
   );
 }

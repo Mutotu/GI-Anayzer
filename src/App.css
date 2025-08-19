@@ -66,3 +66,12 @@
 .remove-button:hover {
   background-color: #c0392b;
 }
+
+.food-image {
+  width: 120px;       /* smaller size */
+  height: 120px;
+  object-fit: cover;  /* crops without distortion */
+  border-radius: 8px; /* rounded corners */
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* soft shadow for clarity */
+}
