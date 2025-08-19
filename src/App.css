@@ -1,0 +1,68 @@
+.custom-file-upload {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+.uploader-container {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.chart-container {
+  margin: 50px;
+  height: 400px; /* Set a fixed height for the chart container */
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.loader {
+  margin: 20px;
+}
+
+.result-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.result-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+}
