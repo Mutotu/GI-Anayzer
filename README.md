@@ -13,3 +13,4 @@ run npm install
 run npm start
 
 
+#test_pics folder has photos to test the app
