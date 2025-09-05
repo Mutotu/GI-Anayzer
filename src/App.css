@@ -20,7 +20,7 @@
 
 .chart-container {
   margin: 50px;
-  height: 400px; /* Set a fixed height for the chart container */
+  height: 400px;
 }
 
 .results-container {
@@ -75,3 +75,4 @@
   margin-bottom: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* soft shadow for clarity */
 }
+

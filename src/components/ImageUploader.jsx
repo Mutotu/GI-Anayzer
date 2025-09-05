@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 function ImageUploader({ onImageUpload }) {
   const handleFileChange = (event) => {
-    const files = Array.from(event.target.files);
-    onImageUpload(files);
+    const files = Array.from(event.target.files)
+    onImageUpload(files)
   };
 
   return (
@@ -20,7 +20,7 @@ function ImageUploader({ onImageUpload }) {
         Click to Upload Your Food Images
       </label>
     </div>
-  );
+  )
 }
 
-export default ImageUploader;
+export default ImageUploader

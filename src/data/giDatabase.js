@@ -1,4 +1,3 @@
-// src/data/giDatabase.js
 
 export const giDatabase = {
   apple: {
@@ -33,7 +32,7 @@ export const giDatabase = {
       "Pair with non-starchy vegetables or protein to balance blood sugar."
     ]
   },
-  // --- NEW ENTRIES ---
+  
   banana: {
     gi: 51, // GI for a slightly unripe banana is lower. Ripe is higher.
     explanation: "Medium GI. The ripeness of the banana significantly affects its GI value; riper bananas have a higher GI.",
@@ -58,5 +57,5 @@ export const giDatabase = {
       "Pair with nuts or seeds to reduce rapid glucose spikes."
     ]
   }
-  // 🔥 You can continue adding more foods here!
-};
+
+}
